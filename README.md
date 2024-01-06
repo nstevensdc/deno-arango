@@ -7,7 +7,7 @@ The library is a very thin layer on top of the raw http-based API of Arango.
 Usage is as follows:
 
 ```
-import { Arango } from https://github.com/nstevensdc/deno-arango/raw/master/mod.js"
+import { Arango } from "https://github.com/nstevensdc/deno-arango/raw/master/mod.js"
 
 const arango = new Arango("http://arangoserver:8529", "root", "mysecurepassword")
 await arango.createDatabase("mygreatdb")
