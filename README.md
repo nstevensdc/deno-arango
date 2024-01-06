@@ -20,3 +20,5 @@ await arango.execute('FOR w in widgets FILTER w.price < 20 RETURN w')
 ```
 
 This returns the Foo and Bar records in an array.
+
+This library is still in development, servicing an internal development project. Expect changes. When the API stabilizes, a versioned release will be tagged.
